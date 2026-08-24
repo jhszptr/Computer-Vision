@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['f1_car']
+
+roboflow:
+  workspace: baszatska
+  project: th_clean_dataset
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/baszatska/th_clean_dataset/dataset/1
